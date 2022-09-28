@@ -1,0 +1,23 @@
+.field {
+  display: grid;
+  grid-template-columns: 73px 73px 73px 73px;
+  grid-template-rows: repeat(5);
+  grid-gap: 20px;
+  padding: 20px 20px 30px 20px;
+}
+
+.btn {
+  width: 73px;
+  height: 75px;
+  background-color: #343434;
+  border-radius: 9px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
